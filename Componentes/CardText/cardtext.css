@@ -1,0 +1,56 @@
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 10px 10px 20px #0000008f;
+    background-color: #b7edff;
+    margin: 1%;
+  
+}
+
+h1.texto {
+    border-bottom: 2px solid lightcoral;
+}
+
+h2.texto {
+    color: lightcoral;
+    padding: 2px;
+}
+
+.area-texto { 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 25rem;
+    height: 5rem;
+    
+}
+
+.area-texto label {
+
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.area-texto button {
+
+    background-color: lightcoral;
+    display: list-item;
+    padding: 10px;
+    width: 50%;
+    margin-top: 3%;
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
