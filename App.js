@@ -3,9 +3,9 @@ import './App.css';
 
 import Header from './Componentes/Header/';
 import Footer from './Componentes/Footer/';
-import HomePag from './Componentes/HomePag/';
-import Card from './Componentes/Card/';
-import Melhorado from './Componentes/Melhorado/'
+import CardText from './Componentes/CardText/';
+import CardCor from './Componentes/CardCor/';
+import MelhorCard from './Componentes/MelhorCard/'
 
 function App() {
 
@@ -15,9 +15,9 @@ function App() {
       <Header />
 
       <div className='Corpo'>
-        <Melhorado />
-        <HomePag />
-        <Card />
+        <MelhorCard />
+        <CardText />
+        <CardCor />
       </div>
 
       <Footer />
